@@ -1,0 +1,51 @@
+DESIGN DIRECTORY
+
+Idea: Overcooked
+
+MVP Requirements: (PRELIMINARY)
+Chef that runs around (user-controlled)
+Cooking (object interaction)
+Customer score the cooking (basic AI)
+Storing multiple orders
+Timer
+
+Post-MVP Features:
+2.5D graphics
+Adjusting difficulty (points can get by serving up one order) based on user's past performance and game time left.
+Calculating and showing out to the shortest path to the customers, who we have enough food in our hands to serve.
+Save and load state
+Local leaderboard
+
+Updates:
+#08/10 TP2:
+01 Giving ingredients, drinks and foods codes
+	I used 2d_lists to implement these functions.
+02 Storing multiple orders
+	I used 3d_list (app.orders) to randomly generate and save orders.
+03 Cooking (object interaction)
+	Players can use mouse to click ingredients and drinks on screen 
+	to collect, and click cooktop to make foods with ingredients in
+	hand. The number of ingredients and foods will automaticlly 
+	update.
+04 Customer score the cooking (basic AI)
+	Once the player serve a customer, the number of foods in our 
+	'Hand' updates, and score will increase 6 points, and the order 
+	bubble next to this customer disappeard. If we served all of 
+	these 4 customers, which means one turn, we will not lose 
+	this level and successfully get into the next level or win the game.
+05 Reaching MVC (More game modes)
+	MVC has been achieved.
+06 Better user interface
+	I added more instructions and buttons for players.
+
+#08/12 TP3:
+01 Complete saving and loading state function
+02 Complete local leaderboard
+03 Game win mode and interface is added
+04 Player can get hint (show the shortest path by 2 seconds) by clicking icon
+05 Automaticly adjusting difficulty based on performance and time left
+06 basic AI calculating and showing out to the shortest path to the customers
+07 The maximum amount of one ingredient/drink in player's hands is limited.
+08 The standard of game ending and winning are changed.
+09 Better Interface
+	
